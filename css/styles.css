@@ -1,0 +1,119 @@
+:root {
+  --brand-color: #2e2f42;
+  --normal-color: #4d5ae5;
+  --active-color: #404bbf;
+  --background-color: #ffff;
+  --text-color: #434455;
+  --button-color: #e7e9fc;
+}
+
+body {
+  font-family: "Roboto", "Raleway", sans-serif;
+  color: var(--brand-color);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 2%;
+}
+
+.link {
+  text-decoration: none;
+  font-weight: 500;
+}
+.link:hover,
+.link:focus,
+.link:active {
+  color: var(--active-color);
+}
+
+.contact {
+  text-decoration: none;
+  color: var(--text-color);
+  font-style: normal;
+}
+.contact:hover,
+.contact:focus,
+.contact:active {
+  color: var(--active-color);
+}
+.logo-1 {
+  color: var(--normal-color);
+  font-size: 18px;
+  font-family: Raleway;
+  font-weight: 800;
+  text-transform: uppercase;
+  line-height: 1.16;
+  letter-spacing: 0.54px;
+}
+.logo-2 {
+  color: var(--brand-color);
+  font-size: 18px;
+  font-family: Raleway;
+  font-weight: 800;
+  text-transform: uppercase;
+  line-height: 1.16;
+  letter-spacing: 0.54px;
+}
+.logo-3 {
+  color: var(--background-color);
+  font-size: 18px;
+  font-family: Raleway;
+  font-weight: 800;
+  text-transform: uppercase;
+  line-height: 1.16;
+  letter-spacing: 0.54px;
+}
+.header-one {
+  background-color: var(--brand-color);
+  color: var(--background-color);
+  text-align: center;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 60px;
+}
+
+.button-order {
+  font-weight: 500;
+  color: var(--background-color);
+  background-color: var(--normal-color);
+  cursor: pointer;
+}
+
+.button-order:hover,
+.button-order:focus,
+.button-order:active {
+  color: var(--background-color);
+  background-color: var(--active-color);
+}
+
+.header-three {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.text {
+  color: var(--text-color);
+}
+.footer {
+  background-color: var(--brand-color);
+}
+.footer > .text {
+  color: var(--background-color);
+}
+.header-two {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+}
+.button-portfolio {
+  font-weight: 500;
+  color: var(--active-color);
+  background-color: var(--button-color);
+  cursor: pointer;
+}
+.button-portfolio:hover,
+.button-portfolio:focus,
+.button-portfolio:active {
+  background-color: var(--active-color);
+  color: var(--background-color);
+}
