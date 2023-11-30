@@ -67,7 +67,7 @@ body {
   text-align: center;
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.2;
+  line-height: 1.07;
   letter-spacing: 0.02em;
 }
 .button-order {
@@ -123,10 +123,11 @@ body {
 .footer {
   background-color: var(--brand-color);
 }
-.footer > .text {
-  color: var(--background-color);
+.text-footer {
+  color: var(--background-color-second);
 }
 .button-portfolio {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   color: var(--active-color);
   background-color: var(--button-color);
