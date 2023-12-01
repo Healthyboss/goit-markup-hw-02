@@ -87,7 +87,7 @@ body {
   background-color: var(--active-color);
 }
 
-.header-three {
+.header-two {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -125,12 +125,17 @@ body {
 }
 .text-footer {
   color: var(--background-color-second);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .button-portfolio {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
-  color: var(--active-color);
-  background-color: var(--button-color);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--normal-color);
+  background-color: var(--background-color-second);
   cursor: pointer;
 }
 .button-portfolio:hover,
